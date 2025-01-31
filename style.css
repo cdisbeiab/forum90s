@@ -104,9 +104,9 @@
     padding-left: 30px;
     display: inline-block;
 
-small {
+.post small {
     padding-left: 70px; 
-    display: inline-block;
+    
 }
 
 .post a:hover {
