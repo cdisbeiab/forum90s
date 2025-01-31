@@ -97,22 +97,23 @@
             background-color: #f9f9f9;
         }
 
-          .post a {
+  .post a {
     font-weight: bold;
     color: #003366;
     text-decoration: none;
-    padding-left: 30px; /* Aggiungi il padding-left qui */
+    padding-left: 30px;
+    display: inline-block;
+
+.post a small {
+    padding-left: 20px; 
+    display: inline-block;
 }
-     
+
 .post a:hover {
     text-decoration: underline;
     color: #ffcc00;
 }
 
-
-    small {
-     padding-left:20px;
-    }
         
         .post h3 {
             text-align:center;
