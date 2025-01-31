@@ -93,7 +93,7 @@
         }
         .post {
             border-bottom: 1px solid #cccccc;
-           // padding: 10px 0;
+            padding: 10px 0;
             background-color: #f9f9f9;
         }
         .post a {
@@ -102,7 +102,7 @@
             text-decoration: none;
         }
 
-    .topic-title {
+    .topic-title a {
      padding-left:30px;
     }
         .post a:hover {
@@ -113,10 +113,6 @@
         .post h3 {
             text-align:center;
         }
-
-         .post p {
-          padding-left:30px;
-         }
 
         .footer {
             position: fixed;
