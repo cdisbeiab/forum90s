@@ -101,6 +101,10 @@
             color: #003366;
             text-decoration: none;
         }
+
+    .post .topic-title {
+     padding-left:30px;
+    }
         .post a:hover {
             text-decoration: underline;
             color: #ffcc00;
