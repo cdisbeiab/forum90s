@@ -92,10 +92,6 @@
             color: #ffcc00;
         }
 
-.post a small {
-    padding-left: 20px;
-    display: inline-block;  /* Assicurati che small sia un blocco inline */
-}
 
 .post a {
     font-weight: bold;
