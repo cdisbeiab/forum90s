@@ -92,17 +92,11 @@
             color: #ffcc00;
         }
 
- small {
-    padding-left: 25px; 
-    display: inline-block;
-    
+.post a small {
+    padding-left: 20px;  /* Aggiungi padding a small */
+    display: inline-block;  /* Rende small un blocco inline, così il padding viene applicato correttamente */
 }
-
-        .post {
-            border-bottom: 1px solid #cccccc;
-            padding: 10px 0;
-            background-color: #f9f9f9;
-        }
+       
 
   .post a {
     font-weight: bold;
