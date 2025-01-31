@@ -106,6 +106,7 @@
 
 .post small {
     padding-left: 70px; 
+    display: inline-block;
     
 }
 
