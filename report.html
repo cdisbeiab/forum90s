@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segnala Contenuti - Forum Anni '90</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function openReportForm(postId) {
+            const form = document.getElementById('reportForm');
+            form.style.display = 'block';
+            document.getElementById('reportedPost').value = postId;
+        }
+
+        function closeReportForm() {
+            const form = document.getElementById('reportForm');
+            form.style.display = 'none';
+        }
+    </script>
+</head>
+<body>
+
+    <header>
+        <img src="logo.png" width="250px">
+    </header>
+
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="forum.html">Forum</a>
+        <a href="search.html">Cerca</a>
+        <a href="register.html">Registrati</a>
+        <a href="report.html">Segnala Contenuti</a>
+        <a href="other.html">Altro</a>
+    </div>
+
+    <div class="container">
+        <div class="sidebar">
+            <h3>Categorie</h3>
+            <div class="category">
+                <h3><a href="forum.html">Tecnologia</a></h3>
+                <ul>
+                    <li><a href="#">Come configurare una rete LAN nel 1995</a></li>
+                    <li><a href="#">Windows 95: La nuova rivoluzione?</a></li>
+                    <li><a href="#">Problemi con il dial-up</a></li>
+                </ul>
+            </div>
+            <div class="category">
+                <h3><a href="forum.html">Gaming</a></h3>
+                <ul>
+                    <li><a href="#">I migliori giochi per PC del 1996</a></li>
+                    <li><a href="#">Doom vs Quake: quale scegliere?</a></li>
+                    <li><a href="#">Le console che stanno cambiando il gioco</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content">
+            <h2>Segnala un contenuto problematico</h2>
+            <p>Se trovi contenuti che violano le regole del forum o che sono inappropriati, segnalali qui.</p>
+
+            <h3>Seleziona un post da segnalare:</h3>
+            <p><strong>Topic:</strong> Come configurare una rete LAN nel 1995</p>
+            <p><strong>Post:</strong> "Salve a tutti, ho appena configurato una LAN tra due PC..."</p>
+            <button onclick="openReportForm(1)">Segnala questo post</button>
+
+            <hr>
+
+            <h3>Modulo di segnalazione:</h3>
+            <p>Se ritieni che un contenuto debba essere segnalato, compila il modulo sottostante con i dettagli.</p>
+
+            <form action="#" method="post">
+                <label for="reason">Motivo della segnalazione:</label><br>
+                <textarea id="reason" name="reason" rows="4" cols="50" placeholder="Descrivi il motivo della segnalazione..." required></textarea>
+                <br><br>
+                <input type="submit" value="Invia Segnalazione">
+            </form>
+
+            <div id="reportForm" style="display:none; background-color: #f8d7da; padding: 20px; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 80%; max-width: 400px; border: 1px solid #f5c6cb; border-radius: 5px;">
+                <h3>Segnala un contenuto</h3>
+                <form action="#" method="post">
+                    <input type="hidden" id="reportedPost" name="reportedPost">
+                    <label for="reason">Motivo della segnalazione:</label><br>
+                    <textarea id="reason" name="reason" rows="4" cols="50" placeholder="Descrivi il motivo della segnalazione..." required></textarea>
+                    <br><br>
+                    <input type="submit" value="Invia Segnalazione">
+                    <button type="button" onclick="closeReportForm()">Chiudi</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        &copy; 1995 Forum Anni '90 - Tutti i diritti riservati.
+    </div>
+
+</body>
+</html>
