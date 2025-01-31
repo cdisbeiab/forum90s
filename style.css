@@ -102,13 +102,12 @@
             text-decoration: none;
         }
 
-    .post .topic-title {
+    .post a .topic-title {
      padding-left:30px;
     }
         .post a:hover {
             text-decoration: underline;
             color: #ffcc00;
-         padding-left:20px;
         }
         
         .post h3 {
