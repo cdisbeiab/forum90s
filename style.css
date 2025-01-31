@@ -95,12 +95,12 @@
             border-bottom: 1px solid #cccccc;
             padding: 10px 0;
             background-color: #f9f9f9;
-            padding-left:30px;
         }
         .post a {
             font-weight: bold;
             color: #003366;
             text-decoration: none;
+         text-align:center;
         }
         .post a:hover {
             text-decoration: underline;
