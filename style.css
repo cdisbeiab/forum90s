@@ -109,7 +109,10 @@
         .post h3 {
             text-align:center;
         }
-        
+
+         .post p {
+          padding-left:30px;
+         }
         .footer {
             position: fixed;
             text-align: center;
