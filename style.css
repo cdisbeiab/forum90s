@@ -92,6 +92,11 @@
             color: #ffcc00;
         }
 
+.post {
+ border-bottom: 1px solid;
+ padding:10px 0px;
+ background-color:#f9f9f9;
+}
 
 .post a {
     font-weight: bold;
