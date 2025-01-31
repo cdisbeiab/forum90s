@@ -93,8 +93,8 @@
         }
 
 .post a small {
-    padding-left: 20px;  /* Aggiungi padding a small */
-    display: inline-block;  /* Rende small un blocco inline, così il padding viene applicato correttamente */
+    padding-left: 20px !important;  
+    display: inline-block !important;
 }
        
 
