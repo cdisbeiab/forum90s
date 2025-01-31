@@ -91,6 +91,13 @@
             text-decoration: underline;
             color: #ffcc00;
         }
+
+ small {
+    padding-left: 25px; 
+    display: inline-block;
+    
+}
+
         .post {
             border-bottom: 1px solid #cccccc;
             padding: 10px 0;
@@ -104,12 +111,6 @@
     padding-left: 30px;
     display: inline-block;
   }
-
- small {
-    padding-left: 25px; 
-    display: inline-block;
-    
-}
 
 .post a:hover {
     text-decoration: underline;
