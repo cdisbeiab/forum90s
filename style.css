@@ -96,12 +96,18 @@
             padding: 10px 0;
             background-color: #f9f9f9;
         }
-        .post a {
-            font-weight: bold;
-            color: #003366;
-            text-decoration: none;
-            padding-left: 30px;
-        }
+     .post a {
+    font-weight: bold;
+    color: #003366;
+    text-decoration: none;
+    padding-left: 30px; /* Aggiungi il padding-left qui */
+}
+
+.post a:hover {
+    text-decoration: underline;
+    color: #ffcc00;
+}
+
 
       
         
