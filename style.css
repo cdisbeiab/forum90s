@@ -111,15 +111,16 @@
         }
         
         .footer {
+            position: fixed;
             text-align: center;
             background-color: #003366;
             color: white;
             padding: 10px;
             font-size: 12px;
             border-top: 3px solid #3333cc;
-            position: fixed;
             width: 100%;
             bottom: 0;
+            margin:0;
         }
         
    code {
