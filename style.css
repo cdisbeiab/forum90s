@@ -100,7 +100,6 @@
             font-weight: bold;
             color: #003366;
             text-decoration: none;
-         text-align:center;
         }
         .post a:hover {
             text-decoration: underline;
@@ -111,7 +110,7 @@
             text-align:center;
         }
 
-         .post p {
+         .post p, a {
           padding-left:30px;
          }
 
