@@ -97,6 +97,7 @@
             background-color: #f9f9f9;
         }
         .post a {
+            display:flex;
             font-weight: bold;
             color: #003366;
             text-decoration: none;
