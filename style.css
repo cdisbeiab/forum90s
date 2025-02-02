@@ -142,3 +142,29 @@
     white-space: pre-wrap; 
     font-size:18px;
 }
+
+table {
+ width:700px;
+ text-align:center;
+ font-size:30px;
+}
+
+th {
+ background-color:#003366;
+ paddng:10px;
+ color:white;
+}
+
+.post td {
+ background-color:graylight;
+ padding:15px;
+}
+
+table small {
+ color:gray;
+ padding:100px;
+}
+
+table td .post a {
+ padding:100px;
+}
